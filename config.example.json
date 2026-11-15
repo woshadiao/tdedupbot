@@ -1,0 +1,12 @@
+{
+  "token": "123456:abcdefg",
+  "reviewer_groups": [-1001234567890],
+  "main_bot_ids": [123456789],
+  "superadmin": [987654321],
+  "custom_api": "https://api.telegram.org/bot",
+  "db_url": "sqlite:///data/dedup.db",
+  "phash_threshold": 8,
+  "simhash_threshold": 16,
+  "enable_simhash": true,
+  "min_simhash_text_len": 12
+}
