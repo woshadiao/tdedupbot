@@ -9,16 +9,34 @@ env.bak/
 venv.bak/
 
 data/dedup.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
 config.json
 
 __pycache__/
 *.py[cod]
 *$py.class
 cython_debug/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
 
 desktop.ini
 .DS_Store
 ._.DS_Store
+Thumbs.db
+
+*.log
+logs/
 
 .idea
 .vscode

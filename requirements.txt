@@ -1,0 +1,5 @@
+imagehash>=4.3.2
+numpy>=2.5.4
+pillow>=13.0.0
+python-telegram-bot>=22.8
+sqlalchemy>=2.1.8
