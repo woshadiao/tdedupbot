@@ -41,6 +41,8 @@ if __name__ == "__main__":
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
         level=logging.INFO,
     )
+    # To avoid httpx INFO
+    logging.getLogger("httpx").setLevel(logging.WARNING)
     # Empty id sets would silently exclude every review-group submission.
     if not DEDUP_REVIEWER_GROUPS:
         raise SystemExit("config.json: reviewer_groups is empty")
